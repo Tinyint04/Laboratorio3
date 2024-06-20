@@ -78,12 +78,9 @@ class TaskController extends Controller
         
     }
 
-    public function complete(Task $task)
-{
-    $task->completed = 1; // Marcar como completada (1 para completada, 0 para no completada)
-    $task->save();
-
-    return redirect()->back()->with('success', 'Tarea completada correctamente.');
-}
-
+    public function complete(Task $task){
+        $task->completed = true;
+        $task->save();
+        return redirect('/tasks');
+    }
 }
