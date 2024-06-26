@@ -1,0 +1,11 @@
+body {
+    padding-top: 56px;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.invalid-feedback {
+    display: block;
+}
