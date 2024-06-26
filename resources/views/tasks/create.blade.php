@@ -35,6 +35,7 @@
                 <div class="invalid-feedback">{{ $message }}</div>
             @enderror
         </div>
-        <button type="submit" class="btn btn-primary">Create Task</button>
+        <button type="submit" class="btn btn-primary">Create Task 1</button>
+
     </form>
 @endsection
